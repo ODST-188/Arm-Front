@@ -1,0 +1,65 @@
+body{
+    background:#111;
+    color:white;
+    font-family:Arial, sans-serif;
+    margin:0;
+}
+
+header{
+    text-align:center;
+    padding:30px;
+}
+
+h1, h2, h3{
+    text-align:center;
+}
+
+a{
+    color:#4db8ff;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.next-card{
+    background:#1a1a1a;
+    border:2px solid #555;
+    border-left:6px solid #4db8ff;
+    border-radius:10px;
+    padding:20px;
+    margin:30px auto;
+    width:80%;
+    max-width:900px;
+}
+
+.next-card img{
+    display:block;
+    margin:15px auto;
+    height:300px;
+    width:auto;
+}
+
+.next-card p{
+    line-height:1.6;
+    text-align:justify;
+}
+
+.info{
+    background:#222;
+    border:1px solid #444;
+    padding:10px;
+    margin-bottom:15px;
+}
+
+.info strong{
+    color:#4db8ff;
+}
+
+hr{
+    border:none;
+    height:1px;
+    background:#444;
+    margin:30px 0;
+}
